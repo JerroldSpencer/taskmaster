@@ -12,6 +12,7 @@ function _drawLists() {
 //Public
 export default class ListController {
     constructor() {
+        console.log("Hello from ListController")
         //NOTE: When the app first starts we want to pull any potential data out of memory
         _listService.getLists();
         //NOTE: After updating the store, we can automatically call to draw the lists.

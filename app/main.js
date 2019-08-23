@@ -5,6 +5,7 @@ class App {
     constructor() {
         this.controllers = {
             listController: new ListController()
+
         }
     }
 }
